@@ -22,10 +22,10 @@
 *   - To enable/disable and to report errors (interrupts).
 *
 * <b>IP Hardware Configuration</b>
-* The AXI PCIE IP supports only the endpoint for Virtex®-6 and Spartan®-6
+* The AXI PCIE IP supports only the endpoint for VirtexÂ®-6 and SpartanÂ®-6
 * families.
 *
-* The AXI PCIE IP supports both the endpoint and Root Port for the Kintex® 7
+* The AXI PCIE IP supports both the endpoint and Root Port for the KintexÂ® 7
 * devices.
 *
 *
@@ -185,7 +185,7 @@ typedef struct {
 
 
 /**
- * The user is required to use this strucuture when reading or writing
+ * The user is required to use this structure when reading or writing
  * translation vector between local bus BARs and AXI PCIe BARs. It is used
  * when calling "XAxiPcie_GetLocalBusBar2PcieBar" and
  * "XAxiPcie_SetLocalBusBar2PcieBar" functions. The translation vectors are
